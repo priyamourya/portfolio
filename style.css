@@ -1,0 +1,296 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: "Silka Medium";
+  font-size: 15px;
+  background-color: #F9F9F9;
+  -webkit-animation: fadeInAnimation ease 3s;
+          animation: fadeInAnimation ease 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.navContainer {
+  width: 100%;
+  height: 136px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 0px 3.5vw;
+  z-index: 4;
+  position: fixed;
+}
+
+.navcenterBox {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 23px;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Silka Medium";
+  font-size: 14px;
+  padding: 5px;
+}
+
+.navcenter {
+  font-family: "Silka Medium";
+  font-size: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  height: 32px;
+  border-radius: 16px;
+  background: white;
+  z-index: -1;
+  left: 5px;
+  width: 49px;
+}
+
+.navoptions {
+  font-family: "Silka Medium";
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 32px;
+  padding: 0px 16px;
+  -webkit-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+  color: #0d1117;
+}
+
+.nav {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 136px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 0px 3.5vw;
+  opacity: 1;
+}
+
+.navcontact {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+section {
+  height: 500px;
+  background-color: #FAE3D9;
+}
+
+.two {
+  background-color: white;
+}
+
+.outer-box {
+  position: relative;
+}
+
+.firstbox {
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.b{
+  position:absolute;
+  top:20%;
+  height:50%;
+  width:50%;
+
+}
+.box1{
+  position:absolute;
+  left:10%;
+}
+.box2{
+  position:absolute;
+  right:0%;
+}
+.first {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 0;
+  height: 500px;
+}
+.one{
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc5c7d, #6a82fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 300px;
+}
+.second:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+}
+
+.second {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  z-index: 1;
+}
+.c{
+  position:relative;
+  top:5%;
+  left:10%;
+  height:50%;
+  width:50%;
+
+}
+
+.third {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 300px;
+  z-index: 0;
+}
+
+.images {
+  max-width: 100%;
+  max-height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+.row{
+  position: relative;
+  top:3%;
+}
+#section2{
+  height:250px;
+}
+#section3{
+  height:520px;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#projecttag{
+  padding-top: 2%;
+  padding-left:10% ;
+}
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 230px;
+  background-color: #0A043C;
+  color: white;
+}
+#para{
+  padding-left: 10%;
+  padding-top: 3%;
+  height: 50%;
+  width: 40%;
+}
+#lastpara{
+  padding-top: 3%;
+  padding-left: 10%;
+  text-align: left;
+  color:white;
+}
+#last{
+  padding-top: 3%;
+  padding-left: 4%;
+  text-align: center;
+  color:white;
+}
+.fab{
+  padding:10px;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #section3{
+    height: 1100px;
+  }
+  .card{
+    padding-bottom: 5%;
+  }
+  #para{
+    padding-top: 4%;
+    width: 80%;
+  }
+}
