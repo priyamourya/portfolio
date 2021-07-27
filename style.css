@@ -3,6 +3,7 @@ body, html {
   margin: 0;
   font-family: "Silka Medium";
   font-size: 1rem;
+  overflow: hidden;
   background-color: #F9F9F9;
   -webkit-animation: fadeInAnimation ease 3s;
           animation: fadeInAnimation ease 3s;
