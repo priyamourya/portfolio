@@ -76,7 +76,7 @@ body, html {
   border-radius: 16px;
   background: white;
   z-index: -1;
-  left: 5px;
+  left: 15%;
   width: 49%;
 }
 
@@ -141,15 +141,7 @@ section {
   position: relative;
 }
 
-.firstbox {
-  height: 400px;
-  width: 400px;
-  display: inline-block;
-  background-color: white;
-  position: relative;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-          box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-}
+
 .b{
   position:absolute;
   top:20%;
@@ -304,5 +296,13 @@ h3,a{
   #para{
     padding-top: 4%;
     width: 80%;
+  }
+  .box1{
+    position:absolute;
+    left:8%;
+  }
+  .box2{
+    position:absolute;
+    right:0%;
   }
 }
